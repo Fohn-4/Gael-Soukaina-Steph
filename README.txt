@@ -1,6 +1,6 @@
 1-Affichage du plateau de jeu (déjà partiellement implémenté)
 --------------------------------------------------------------------
-Vous avez déjà un début de structure pour afficher le plateau de jeu. Vous pouvez améliorer cette partie pour rendre l'affichage plus convivial et clair.
+Nous avons un début de structure pour afficher le plateau de jeu. Nous pouvons améliorer cette partie pour rendre l'affichage plus convivial et clair.
 
 2-Insertion de jetons
 --------------------------------------------------------------------
