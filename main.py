@@ -1,4 +1,4 @@
-
+import os
 
 
 cols = 7
@@ -11,8 +11,12 @@ redPlayer = '🔴'
 
 board = [['⚫' for _ in range(cols)] for _ in range(rows)]
     
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
 
 while run:
+    cls()
+
     for row in board:
         print(row)
 
@@ -20,11 +24,8 @@ while run:
                         Y for yes
                         N for no
                         ''')
-    if keepGoing == 'Y':
-        run = True
-    elif keepGoing == 'N':
+    if keepGoing.upper() == 'N':
         run = False
-    else:
-        pass
+
     
 
