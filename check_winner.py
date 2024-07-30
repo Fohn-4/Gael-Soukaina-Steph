@@ -14,4 +14,5 @@ def check_winner(board, player):
                         return True
                     if row - 3 >= 0 and all(board[row - i][col + i] == player for i in range(4)):
                         return True
+    print("blop")
     return False
