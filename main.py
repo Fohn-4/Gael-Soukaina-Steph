@@ -1,6 +1,6 @@
 import os
 from check_winner import check_winner
-from insert_jeton import display_board, drop_piece
+from insert_jeton import drop_piece
 
 cols = 7
 rows = 6
