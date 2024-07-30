@@ -16,7 +16,12 @@ board = [['⚫' for _ in range(cols)] for _ in range(rows)]
 def cls():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-
+def display_board(board):
+    # Affiche chaque ligne du plateau
+    for row in board:
+        print(' '.join(row))
+    print()  # Nouvelle ligne à la fin de l'affichage du plateau
+    
 while run:
     cls()
     display_board(board)
